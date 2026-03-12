@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>p2p bot</title>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.5; padding: 2rem; max-width: 780px; margin: auto; }
+    pre { background: #f5f5f5; padding: 1rem; border-radius: 6px; overflow-x: auto; }
+    a { color: #0366d6; }
+  </style>
+</head>
+<body>
+  <h1>p2p bot</h1>
+  <p>This repository contains a Python bot (in <code>p2pbot.py</code>).</p>
+
+  <h2>📌 GitHub Pages Notes</h2>
+  <p>GitHub Pages can host this site (<code>docs/</code>) as a static website, but it <strong>cannot run Python code</strong> on the server.</p>
+
+  <h2>⚙️ How to Run the Bot (Locally or on a Server)</h2>
+  <ol>
+    <li>Install Python 3.10+ (<a href="https://www.python.org/downloads/">python.org</a>).</li>
+    <li>Create and activate a virtual environment:</li>
+  </ol>
+  <pre><code>python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+</code></pre>
+  <ol start="3">
+    <li>Install dependencies (if any). Add them to <code>requirements.txt</code> if you have dependencies.</li>
+    <li>Run the bot:</li>
+  </ol>
+  <pre><code>python p2pbot.py</code></pre>
+
+  <h2>📄 Repository Structure</h2>
+  <ul>
+    <li><code>p2pbot.py</code> - main bot script</li>
+    <li><code>docs/</code> - static site content served by GitHub Pages</li>
+    <li><code>.github/workflows/</code> - GitHub Actions workflow that deploys the site</li>
+  </ul>
+
+  <h2>🔗 Want to Deploy the Bot?</h2>
+  <p>To run this bot online you need a runtime host (e.g., a VPS, Heroku, Railway, or a container service). GitHub Pages only serves static content.</p>
+</body>
+</html>
